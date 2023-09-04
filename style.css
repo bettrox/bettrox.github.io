@@ -342,6 +342,10 @@ header {
     font-weight: 800;
 }
 
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -394,6 +398,13 @@ header {
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+
+/*tamaño de mi logo*/
+.logotipo1, .logotipo2 {
+    height: 80%;
+    width: 80%;
 }
 
 .menu {
@@ -636,11 +647,6 @@ header {
         justify-items: center;
         align-items: center;
         gap: 5px;
-    }
-
-    .logotipo1, .logotipo2 {
-        height: 80%;
-        width: 80%;
     }
 
 
