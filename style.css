@@ -154,7 +154,7 @@ header {
 .formulario input {
     width: 80%;
     padding: 10px;
-    color: var(--colorb);
+    color: var(--colorne);
     border: var(--colortrans);
     background-color: var(--colorroj);
 }
