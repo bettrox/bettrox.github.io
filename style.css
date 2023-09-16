@@ -382,6 +382,49 @@ button {
     padding: 50px;
 }
 
+/*EQUIPOOOOOOOOOOOOOOOOOO*/
+
+.equipo {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+
+.p-texto6 h2 {
+    color: var(--colorvos);
+    text-align: center;
+    padding: 25px;
+}
+
+.p-texto6 p {
+    text-align: center;
+}
+
+
+div.p-imagen6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 213px;
+}
+
+div.ptexto7 {
+    text-align: center;
+    color: var(--colorvos);
+}
+
+.ptexto7 p {
+    font-weight: 900;
+    font-size:large; 
+}
+
+
+
+
+
+
+
 /*estilo a mi navegación*/
 
 /*color de mi menu de navegación*/
@@ -476,12 +519,71 @@ header {
     gap: 16.5%;
 }
 
-.imgdegamas {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 5px 0;
+.productos {
+    background: #fff;
+    
+}
+
+.container-fluid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 50px;
+    padding: 50px;
+
 
 }
+
+
+.productos .titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+    padding: 50px;
+}
+
+.productos .titlepage p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.blu {
+    color: var(--colorroj);
+    text-transform: initial;
+}
+
+.productos .productos_box {
+    display: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.productos .productos_box {
+    text-align: center;
+    border: var(--colorroj) solid 3px;
+    border-radius: 53px;
+    padding: 120px 0px 30px 0px;
+    margin-bottom: 30px;
+}
+
+.productos .productos_box figure {
+    margin: 0;
+}
+
+.productos .productos_box h3 {
+    color: #100d0d;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 70px 0px 9px 0px;
+}
+
+.productos .productos_box p {
+    color: #2a2a2c;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
 
 
 
@@ -491,7 +593,7 @@ header {
     /*estilo a mi navegación*/
     .container {
         margin: 0 30px;
-        padding: 50px 0;
+        padding: 10px 0;
     }
 
     .menunav {
@@ -600,9 +702,9 @@ header {
 
     .contactos {
         flex-direction: column;
-        padding: 15px;
         align-items: center;
         gap: 25px;
+        padding-top: 20%;
     }
 
     .formulario2 {
@@ -658,6 +760,38 @@ header {
         align-items: center;
     }
 
+    .equipo {
+        padding: 50px;
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        
+    }
+
+    .imgdegamas {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: grid;
+        padding: 5px 0;
+        grid-template-columns: auto;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    
+    }
+
+    .productos {
+        align-items: center;
+    
+    
+    }
     
 
 
