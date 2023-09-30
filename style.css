@@ -584,7 +584,76 @@ header {
     font-weight: 400;
 }
 
+.p-texto8 h2 {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+}
 
+.p-texto8 {
+    text-align: center;
+    color: #000000;
+}
+
+
+a.polipriv {
+    color: var(--colorroj);
+}
+
+.p-texto9 h2 {
+    text-align: center;
+    background-color: #ffffff;
+    color: var(--colornegro);
+    font-weight: 300;
+    padding: 40px;
+
+}
+
+div.ptexto9 p {
+    text-align: center;
+    background-color: #ffffff;
+    color: var(--colornegro);
+    font-weight: 300;
+    padding: 50px;
+}
+
+/*publicidaaaaaaaaaaaaaaaaaaaaaad*/
+
+.ads2, .ads3 {
+    position: fixed;
+    top: 180px;
+    width: 160px;
+}
+
+.ads2 {
+    left: 20px;
+}
+
+.ads2.hiden {
+    display: none;
+}
+
+.ads3.hiden {
+    display: none;
+}
+
+
+.ads3 {
+    right: 20px;
+}
+
+.cerrar-ads, .cerrar-ads3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    & img {
+        width: 25px;
+        height: 25px;
+    }
+}
 
 
 /*vista mobile*/
@@ -789,8 +858,14 @@ header {
 
     .productos {
         align-items: center;
-    
-    
+    }
+
+    a.polipriv {
+        font-size: 10px;
+    }
+
+    .ads-banner {
+        display: none;
     }
     
 
