@@ -155,8 +155,9 @@ header {
     width: 80%;
     padding: 10px;
     color: var(--colorne);
-    border: var(--colortrans);
-    background-color: var(--colorroj);
+    border: solid 4px var(--colorroj);
+    background-color: var(--colorblanco);
+    border-radius: 50px;
 }
 
 .formulario .bt-enviar {
@@ -227,7 +228,7 @@ header {
 }
 
 .titulo h2 {
-    color: var(--colorne);
+    color: var(--colorblanco);
     margin: 20px;
     display: center;
     align-content: center;
@@ -325,6 +326,7 @@ header {
     color: var(--colorpl);
     border: solid 3px var(--colorroj);
     background-color: var(--colorb);
+    border-radius: 50px;
 }
 
 .formulario2 .bt-enviar2 {
